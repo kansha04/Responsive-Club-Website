@@ -1,0 +1,105 @@
+/* UNIVERSAL STYLES */
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    background-color: #0e1733;
+    height: 100%;
+    padding: 0.5rem;
+}
+header h1 {
+    color: #f98603;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: Helvetica, sans-serif;
+    margin: 0.39rem 0 0 0.39rem;
+    padding-top: 10px;
+}
+header p {
+    color: #f98603;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0.4rem 0.8rem;
+}
+
+/* MAIN CONTENT */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f98603;
+}
+#welcome {
+    width: 40%;
+    color: #0e1733;
+}
+#welcome h2 {
+    font-family: Helvetica;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+#welcome p {
+    font-size: 1.5rem;
+    font-family: Baskervville, sans-serif;
+    font-weight: 650;
+    margin-top: 0;
+}
+#about {
+    width: 50%;
+    color: #0e1733;
+}
+#about h2 {
+    font-family: Helvetica;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+#about p {
+    font-size: 1.5rem;
+    font-family: Helvetoca, sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    justify-content: space-between;
+
+}
+#space-photo {
+    grid-column: 1 / 2;
+}
+#space-photo img {
+    width: 100%;
+    height: 100%;
+}
+#what-we-do {
+    grid-column: 2 / 3;
+    background-color: #0e1733;
+    color: #f98603;
+
+}
+#what-we-do h2 {
+    font-family: Helvetica;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+#what-we-do h3 {
+    font-family: BAskervville;
+    font-weight: 500;
+    margin-top: 0;
+
+}
+/* FOOTER */
+
