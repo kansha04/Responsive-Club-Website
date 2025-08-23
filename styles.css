@@ -71,7 +71,6 @@ header p {
     font-weight: 600;
     margin-top: 0;
 }
-/* Example media query for responsiveness */
 @media screen and (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -133,19 +132,45 @@ header p {
         padding: 0.5rem;
     }
 }
-.testimonial {
+.closer {
     color: #0e1733;
     background-color: #f98603;
-    padding: 2%;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.testimonial h2 {
+#testimonial {
+    padding: 1%;
+    width: 50%;
+}
+#support {
+    font-family: Helvetica;
+    width: 50%;
+}
+#support p {
+    font-family: Helvetica;
+    font-weight: 650;
+}
+.closer h2 {
     margin-top: 0;
     font-family: Helvetica;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
 }
-.testimonial p {
+.closer p {
     font-family: Baskervville;
     font-weight: 500;
     font-size: 1.6rem;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .closer {
+        flex-direction: column;
+        align-items: center;
+    }
+    #testimonial, #support {
+        width: 90%;
+    }
 }
 /* FOOTER */
