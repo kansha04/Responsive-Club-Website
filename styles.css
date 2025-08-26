@@ -25,6 +25,7 @@ header h1 {
     font-family: Helvetica, sans-serif;
     margin: 0.39rem 0 0 0.39rem;
     padding-top: 10px;
+
 }
 header p {
     color: #f98603;
@@ -49,6 +50,8 @@ header p {
     font-family: Helvetica;
     font-size: 2rem;
     margin-bottom: 2%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
 }
 #welcome p {
     font-size: 1.5rem;
@@ -135,28 +138,19 @@ header p {
 .closer {
     color: #0e1733;
     background-color: #f98603;
-    padding: 1.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    padding: 2%;
+    display: grid;
 }
 #testimonial {
     padding: 1%;
-    width: 50%;
-}
-#support {
-    font-family: Helvetica;
-    width: 50%;
-}
-#support p {
-    font-family: Helvetica;
-    font-weight: 650;
+    width: 100%;
 }
 .closer h2 {
     margin-top: 0;
     font-family: Helvetica;
     font-size: 2.3rem;
     font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .closer p {
     font-family: Baskervville;
@@ -164,13 +158,5 @@ header p {
     font-size: 1.6rem;
     width: 100%;
 }
-@media screen and (max-width: 768px) {
-    .closer {
-        flex-direction: column;
-        align-items: center;
-    }
-    #testimonial, #support {
-        width: 90%;
-    }
-}
+
 /* FOOTER */
